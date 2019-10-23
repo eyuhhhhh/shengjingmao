@@ -27,10 +27,10 @@ class ViewManage extends egret.Sprite{
             this.removeEventListener(egret.TouchEvent.TOUCH_TAP,this.onclick,this)
             
             
-           this.clear = setInterval(start,e.step,this)
+           this.clear = setInterval(start,e.step,this,this.tiles)
         }
         
-        function start(view) {
+        function start(view,tiles) {
         
          
             let res = Manage.init().jiancexia()
@@ -52,7 +52,7 @@ class ViewManage extends egret.Sprite{
                     clearInterval(view.clear)
                     
                     view.removeEventListener(egret.TouchEvent.TOUCH_TAP,view.onclick,view)
-                    document.removeEventListener("keydown",view.tiles.move)
+                    document.removeEventListener("keydown",tiles.move)
                     var gameover = new GameOver()
                     view.addChild(gameover)
                     gameover.text.addEventListener(egret.TouchEvent.TOUCH_TAP,resetgame,view)
@@ -80,7 +80,7 @@ class ViewManage extends egret.Sprite{
                 }
                 let newtiles: Tile = new Tile()
                 this.addChild(newtiles)
-                this.clear = setInterval(start,600,this,newtiles)
+                this.clear = setInterval(start,500,this,newtiles)
                 
             }
         }
