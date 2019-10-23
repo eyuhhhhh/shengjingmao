@@ -1,0 +1,11 @@
+{"file":"gameres.png","frames":{
+"cat_start_bg":{"x":1,"y":1139,"w":399,"h":470,"offX":0,"offY":0,"sourceW":399,"sourceH":470},
+"end_tip_fail":{"x":402,"y":1139,"w":446,"h":360,"offX":1,"offY":0,"sourceW":448,"sourceH":361},
+"end_tip_success":{"x":402,"y":1501,"w":446,"h":337,"offX":1,"offY":0,"sourceW":448,"sourceH":338},
+"grid_white":{"x":858,"y":1,"w":100,"h":100,"offX":0,"offY":0,"sourceW":100,"sourceH":100},
+"grid_yellow":{"x":845,"y":103,"w":100,"h":100,"offX":0,"offY":0,"sourceW":100,"sourceH":100},
+"bg":{"x":1,"y":1,"w":640,"h":1136,"offX":0,"offY":0,"sourceW":640,"sourceH":1136},
+"btn_back":{"x":643,"y":101,"w":200,"h":103,"offX":0,"offY":0,"sourceW":200,"sourceH":103},
+"btn_next":{"x":643,"y":206,"w":198,"h":101,"offX":1,"offY":1,"sourceW":200,"sourceH":103},
+"btn_replay":{"x":643,"y":309,"w":198,"h":101,"offX":1,"offY":1,"sourceW":200,"sourceH":103},
+"btn_start":{"x":643,"y":1,"w":213,"h":98,"offX":0,"offY":0,"sourceW":213,"sourceH":98}}}
